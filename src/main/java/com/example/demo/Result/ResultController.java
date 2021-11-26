@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin(origins = "*", allowedHeaders = "*")
-@RequestMapping(path = "bot")
+@RequestMapping(path = "springbot")
 public class ResultController {
 
 	private final ResultService rService;
