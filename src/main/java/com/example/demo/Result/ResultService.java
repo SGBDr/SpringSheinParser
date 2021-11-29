@@ -40,7 +40,7 @@ public class ResultService {
 				}
 				resultList.add(new Result(image, price, name, link));
 			}
-			if(resultList.size() == 11)break;
+			if(resultList.size() == 100)break;
 		}
 		return resultList;
 	}
