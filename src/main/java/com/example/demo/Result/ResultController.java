@@ -25,4 +25,5 @@ public class ResultController {
     List<Result> getMembers(@PathVariable("precision") String precision, @PathVariable("price") double price ){
         return rService.getResult(precision, price);
     }
+    
 }
